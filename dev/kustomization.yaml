@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: dev
 resources:
   - ../base
+  - image-automation.yaml
 patchesStrategicMerge:
   - image-patch.yaml
   - image-policy-patch.yaml

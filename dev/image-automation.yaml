@@ -1,0 +1,21 @@
+apiVersion: image.toolkit.fluxcd.io/v1alpha2
+kind: ImageUpdateAutomation
+metadata:
+  name: nginx
+spec:
+  interval: 2m0s
+  sourceRef:
+    kind: GitRepository
+    name: flux-example-dev
+  update:
+    strategy: Setters
+    path: dev/
+  git:
+    checkout:
+      ref:
+        branch: main
+    commit:
+      author:
+        name: FluxDevBot
+        email: fluxbot@swdc.bosch-cs.com
+      messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
