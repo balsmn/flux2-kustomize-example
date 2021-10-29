@@ -17,5 +17,5 @@ spec:
     commit:
       author:
         name: FluxDevBot
-        email: fluxbot@swdc.bosch-cs.com
+        email: fluxintbot@swdc.bosch-cs.com
       messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
