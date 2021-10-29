@@ -3,6 +3,8 @@ kind: ImagePolicy
 metadata:
   name: nginx
 spec:
+  filterTags:
+    pattern: '.*-dev'
   policy:
     semver:
-      range: 'x.x.x-dev'
+      range: 'x.x.x'
