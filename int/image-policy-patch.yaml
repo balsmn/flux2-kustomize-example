@@ -3,8 +3,6 @@ kind: ImagePolicy
 metadata:
   name: nginx
 spec:
-  filterTags:
-    pattern: '.*-int'
   policy:
     semver:
-      range: 'x.x.x-0'
+      range: '>=1.0.0-int <2.0.0-int'
