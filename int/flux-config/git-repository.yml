@@ -7,5 +7,7 @@ spec:
   interval: 1m0s
   ref:
     branch: main
+  secretRef:
+    name: flux-example-repo-secret
   url: https://github.com/balsmn/flux2-kustomize-example.git
 
