@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   imageRepositoryRef:
-    name: nginx-repository
+    name: nginx
   policy:
     semver:
       range: 'x.x.x'
