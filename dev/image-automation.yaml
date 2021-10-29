@@ -1,7 +1,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1alpha2
 kind: ImageUpdateAutomation
 metadata:
-  name: nginx
+  name: nginx-dev
 spec:
   interval: 2m0s
   sourceRef:

@@ -7,4 +7,4 @@ spec:
     pattern: '.*-dev'
   policy:
     semver:
-      range: 'x.x.x'
+      range: 'x.x.x-0'
