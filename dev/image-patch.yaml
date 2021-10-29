@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: balsmn/nginx:1.14.2-dev
+          image: balsmn/nginx:1.14.2-dev # {"$imagepolicy": "dev:nginx"}
