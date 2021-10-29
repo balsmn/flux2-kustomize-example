@@ -3,6 +3,5 @@ kind: Kustomization
 resources:
   - deployment.yaml
   - service.yaml
-  - flux-example-repo-secret.yaml
   - image-repository.yaml
   - image-policy.yaml

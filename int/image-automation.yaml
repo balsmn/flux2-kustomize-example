@@ -9,7 +9,7 @@ spec:
     name: flux-example-int
   update:
     strategy: Setters
-    path: int/
+    path: int
   git:
     checkout:
       ref:
