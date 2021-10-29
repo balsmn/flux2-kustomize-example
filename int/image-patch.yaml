@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: balsmn/nginx:1.14.2-int
+          image: balsmn/nginx:1.14.2-int # {"$imagepolicy": "int:nginx"}

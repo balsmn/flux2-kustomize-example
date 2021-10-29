@@ -5,4 +5,4 @@ metadata:
 spec:
   policy:
     semver:
-      range: 'x.x.x-dev'
+      range: '>=1.0.0-dev <2.0.0-dev'
